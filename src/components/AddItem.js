@@ -15,7 +15,7 @@ export default class AddItem extends React.Component {
         return (
             <div>
                 <form className='add-item' onSubmit={this.handleAddOption}>
-                    <input type='text' name='item' autoComplete='off'/>
+                    <input type='text' name='item' autoComplete='off' style={{marginRight: 20}}/>
                     <button>Add To List</button>
                 </form>
             </div>
